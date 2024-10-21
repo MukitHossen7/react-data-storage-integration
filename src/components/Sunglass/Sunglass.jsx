@@ -1,6 +1,4 @@
-// import add, { multy } from "../../Utilits/main";
 import { add, multy } from "../../Utilits/main";
-import Watch from "../Watch/Watch";
 
 const Sunglass = () => {
   let fNum = 50;
@@ -12,7 +10,6 @@ const Sunglass = () => {
   return (
     <div>
       <h3>sunglass components </h3>
-      <Watch></Watch>
     </div>
   );
 };
